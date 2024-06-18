@@ -3,9 +3,9 @@ import PageHeader from './PageHeader'
 import Seo from './Seo'
 import Container from '@shared/atoms/Container'
 import Image from 'next/image'
-import Buf from '@images/buf.png'
+import Plaisir from '@images/plaisir.png'
 export interface PageProps {
-  children: ReactNode
+  children?: ReactNode
   title?: string
   uri: string
   description?: string
@@ -35,8 +35,8 @@ export default function Page({
         )}
         <div style={{ marginBottom: '2rem' }}>
           <Image
-            src={Buf}
-            alt="Buf Barista Logo"
+            src={Plaisir}
+            alt="Logo"
             width={200}
             height={200}
             className="logo"

@@ -22,7 +22,7 @@ export default function Footer(): ReactElement {
             href="https://oceanprotocol.com"
             target="_blank"
           >
-            Buf Barista <External className={styles.svg} />
+            Plaisir <External className={styles.svg} />
           </Button>
         </div>
       </div>

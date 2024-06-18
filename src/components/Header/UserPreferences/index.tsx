@@ -14,22 +14,5 @@ export default function UserPreferences(): ReactElement {
   // Calling this here because <Style /> is not mounted on first load
   const darkMode = useDarkMode(false, appConfig?.darkModeConfig)
 
-  return (
-    <Tooltip
-      content={
-        <ul className={styles.preferencesDetails}>
-          {/* <Currency /> */}
-          <Appearance darkMode={darkMode} />
-          {/* <Debug /> */}
-        </ul>
-      }
-      trigger="click focus"
-      className={styles.preferences}
-    >
-      <>
-        <Cog aria-label="Preferences" className={styles.icon} />
-        <Caret aria-hidden="true" className={styles.caret} />
-      </>
-    </Tooltip>
-  )
+  return <Appearance darkMode={darkMode} />
 }

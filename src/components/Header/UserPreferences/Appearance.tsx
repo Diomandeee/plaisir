@@ -16,16 +16,9 @@ export default function Appearance({
 }): ReactElement {
   const options: BoxSelectionOption[] = [
     {
-      name: 'Light',
-      checked: !darkMode.value,
-      title: 'Light',
-      icon: <Sun />
-    },
-    {
       name: 'Dark',
       checked: darkMode.value,
-      title: 'Dark',
-      icon: <Moon />
+      title: 'Dark'
     }
   ]
 
@@ -35,13 +28,11 @@ export default function Appearance({
 
   return (
     <li className={styles.appearances}>
-      <Label htmlFor="">Appearance</Label>
       <BoxSelection
         options={options}
         name="appearanceMode"
         handleChange={handleChange}
       />
-      <FormHelp>Defaults to your OS setting, select to override.</FormHelp>
     </li>
   )
 }

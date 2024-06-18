@@ -1,27 +1,10 @@
 {
-  "siteTitle": "Buf Barista",
-  "siteTagline": "Sip, Sweet and Shimmy",
+  "siteTitle": "Plaisir",
+  "siteTagline": "Casual Wine Bar",
   "siteUrl": "https://synergetic-studio.vercel.app/",
   "siteImage": "/share.png",
   "copyright": "All Rights Reserved. Powered by ",
-  "menu": [
-    {
-      "name": "Menu",
-      "link": "/menu"
-    },
-    {
-      "name": "Branding",
-      "link": "/branding"
-    },
-    {
-      "name": "About",
-      "link": "/about"
-    },
-    {
-      "name": "Contact",
-      "link": "/contact"
-    }
-  ],
+  "menu": [],
 
   "announcement": " ",
   "warning": {
