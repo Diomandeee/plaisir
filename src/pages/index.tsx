@@ -15,7 +15,7 @@ export default function IndexPage() {
       </Head>
 
       <Page
-        title="Not Intimidating, Not Boring"
+        title="Not Intimidating,Not Boring"
         description="Coming Soon"
         uri={router.route}
         headerCenter
