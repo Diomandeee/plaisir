@@ -1,7 +1,5 @@
 import React from 'react'
-import Head from 'next/head'
 import Page from '@shared/Page'
-import Button from '@shared/atoms/Button'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Plaisir from '@images/plaisir.png'
@@ -31,7 +29,7 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .image-container {
           display: flex;
           justify-content: center;

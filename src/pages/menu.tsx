@@ -82,7 +82,7 @@ export default function MenuPage() {
           </div>
         )}
 
-        <style jsx>{`
+        <style>{`
           @keyframes fadeIn {
             from {
               opacity: 0;

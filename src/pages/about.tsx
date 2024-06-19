@@ -44,7 +44,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </section>
-        <style jsx>{`
+        <style>{`
           .mission {
             padding: 20px;
             text-align: center;
