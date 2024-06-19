@@ -33,7 +33,7 @@ export default function Page({
             center={headerCenter}
           />
         )}
-        <div style={{ marginBottom: '2rem' }}>
+        {/* <div style={{ marginBottom: '2rem' }}>
           <Image
             src={Plaisir}
             alt="Logo"
@@ -41,7 +41,7 @@ export default function Page({
             height={200}
             className="logo"
           />
-        </div>
+        </div> */}
         {children}
       </Container>
     </>
