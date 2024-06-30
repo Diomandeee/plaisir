@@ -19,11 +19,7 @@ export default function IndexPage() {
         uri={router.route}
         headerCenter
       ></Page>
-      <div
-        className="image-container"
-        onClick={handleClick}
-        style={{ cursor: 'pointer' }}
-      >
+      <div className="image-container" style={{ cursor: 'pointer' }}>
         <div className="logo">
           <Image src={Plaisir} alt="Logo" width={200} height={200} />
         </div>
