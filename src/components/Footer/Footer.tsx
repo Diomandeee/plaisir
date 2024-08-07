@@ -16,14 +16,7 @@ export default function Footer(): ReactElement {
         <Links />
         <div className={styles.copyright}>
           © {year} <Markdown text={siteContent?.copyright} />
-          <Button
-            style="text"
-            size="small"
-            href="https://oceanprotocol.com"
-            target="_blank"
-          >
-            Plaisir <External className={styles.svg} />
-          </Button>
+          Plaisir
         </div>
       </div>
     </footer>
